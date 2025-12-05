@@ -8,7 +8,9 @@
     <body>
         <h1>ユーザー登録</h1>
         <form method="POST" action="./MusicServlet">
-            <input type="text" name="name"><br>
+            <h2>名前</h2>
+            <input type="text" name="name">
+            <h2>好きな曲</h2>
             <input type="text" name="music"><br>
             <input type="submit" name="登録" />
         </form>
