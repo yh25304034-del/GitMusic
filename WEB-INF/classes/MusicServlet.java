@@ -16,7 +16,7 @@ public class MusicServlet extends HttpServlet {
                     request.setAttribute("name", username);
                     request.setAttribute("music",FavoriteMusic);
 
-                    RequestDispatcher dispatcher = request.getRequestDispatcher("MusicOutput");
+                    RequestDispatcher dispatcher = request.getRequestDispatcher("musicoutput");
 
                     dispatcher.forward(request,response);
             }
