@@ -7,7 +7,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 public class MusicServlet extends HttpServlet {
             protected void doPost(HttpServletRequest request,HttpServletResponse response) 
-                throws IOException,ServletException {
+                throws ServletException, IOException {
                     request.setCharacterEncoding("UTF-8");
 
                     String username = request.getParameter("name");
