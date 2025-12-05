@@ -7,9 +7,9 @@
 </head>
 <body>
     <h1>登録されたユーザー</h1>
-    <table border="1">
-        <tr><th>ユーザー名</th><th>パスワード</th></tr>
-        <tr><td>${name}</td><td>${music}</td></tr>
-    </table>
+        <h2>ユーザー名</h2>
+        <p>${name}</p>]
+        <h2>好きな曲</h2>
+        <p>${music}</p>
 </body>
 </html>
