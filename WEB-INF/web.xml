@@ -12,7 +12,7 @@
 <!--  /musicinput→ MusicServlet  -->
 <servlet>
     <servlet-name>MusicServlet</servlet-name>
-    <servlet-class>/MusicServlet</servlet-class>
+    <servlet-class>MusicServlet</servlet-class>
 </servlet>
 
 <servlet-mapping>
