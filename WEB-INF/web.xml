@@ -1,30 +1,34 @@
 <web-app>
 <!--  /musicinput → /MusicInput.jsp  -->
 <servlet>
-<servlet-name>musicinput</servlet-name>
-<jsp-file>/MusicInput.jsp</jsp-file>
+    <servlet-name>musicinput</servlet-name>
+    <jsp-file>/MusicInput.jsp</jsp-file>
 </servlet>
+
 <servlet-mapping>
-<servlet-name>musicinput</servlet-name>
-<url-pattern>/musicinput</url-pattern>
+    <servlet-name>musicinput</servlet-name>
+    <url-pattern>/musicinput</url-pattern>
 </servlet-mapping>
 <!--  /musicinput→ MusicServlet  -->
 <servlet>
-<servlet-name>music</servlet-name>
-<servlet-class>/MusicServlet</servlet-class>
+    <servlet-name>MusicServlet</servlet-name>
+    <servlet-class>/MusicServlet</servlet-class>
 </servlet>
+
 <servlet-mapping>
-<servlet-name>music</servlet-name>
-<url-pattern>/music</url-pattern>
+    <servlet-name>MusicServlet</servlet-name>
+    <url-pattern>/MusicServlet</url-pattern>
 </servlet-mapping>
+
 <!--  /MusicOutput → /MusicOutput.jsp  -->
 <servlet>
-<servlet-name>musicoutput</servlet-name>
-<jsp-file>/MusicOutput.jsp</jsp-file>
+    <servlet-name>musicoutput</servlet-name>
+    <jsp-file>/MusicOutput.jsp</jsp-file>
 </servlet>
+
 <servlet-mapping>
-<servlet-name>musicoutput</servlet-name>
-<url-pattern>/musicoutput</url-pattern>
+    <servlet-name>musicoutput</servlet-name>
+    <url-pattern>/musicoutput</url-pattern>
 </servlet-mapping>
-...
+
 </web-app>
